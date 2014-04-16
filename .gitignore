@@ -1,3 +1,4 @@
 *.pyc
 dist
 bolster_cliff.egg-info
+.DS_Store
