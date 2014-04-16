@@ -10,7 +10,7 @@ class CliffAceWidget(AceWidget):
 
     class Media:
         css = {
-            'all': ('/static/cliff/emailtemplateform.css',)
+            'all': ['cliff/emailtemplateform.css'],
         }
 
 
