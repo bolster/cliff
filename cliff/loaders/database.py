@@ -8,8 +8,8 @@ class Loader(BaseLoader):
     is_usable = True
     template_fields = {
         'subject.txt': 'subject',
-        'body.txt': 'body_plain',
-        'body.html': 'body_html,',
+        'email.txt': 'body_plain',
+        'email.html': 'body_html',
     }
 
     def load_template_source(self, template_name, template_dirs=None):
