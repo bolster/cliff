@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='cliff',
+    name='bolster-cliff',
     version=cliff.__version__,
     description='A database-based email templating system.',
     author='Bolster Labs, Inc',
