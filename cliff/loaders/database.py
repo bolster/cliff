@@ -25,4 +25,4 @@ class Loader(BaseLoader):
 
         source = getattr(template, self.template_fields[template_field])
 
-        return source
+        return source, template_name
