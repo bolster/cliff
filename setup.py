@@ -25,6 +25,6 @@ setup(
     ],
     install_requires=[
         'Django',
-        'djang-ace',
+        'django-ace',
     ]
 )
