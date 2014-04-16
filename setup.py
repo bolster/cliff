@@ -28,4 +28,5 @@ setup(
         'django-ace',
     ],
     include_package_data=True,
+    package_data={'': ['static/cliff/emailtemplateform.css']},
 )
