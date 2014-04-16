@@ -23,7 +23,7 @@ setup(
         'Topic :: Multimedia :: Graphics',
         'Framework :: Django',
     ],
-    install_required=[
+    install_requires=[
         'Django',
         'djang-ace',
     ]
