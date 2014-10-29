@@ -28,6 +28,7 @@ class EmailTemplateForm(forms.ModelForm):
 
     class Meta:
         model = EmailTemplate
+        fields = ('name', 'subject', 'body_html', 'body_plain')
 
 
 class EmailTemplateAdmin(admin.ModelAdmin):
